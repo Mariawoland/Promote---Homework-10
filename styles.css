@@ -1,0 +1,525 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+    background: linear-gradient(111.23deg, #E9F7FF 0%, #FFDBD5 67.17%);
+    height: 100%;
+}
+
+
+.navigacia {
+    margin-left: auto;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: black;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.linki:hover {
+    border-bottom: 3px solid;
+    border-image: linear-gradient(90deg, #FFDC60 0%, #FFDC60 50%, #5956E8 50%, #5956E8 100%) 1;
+}
+
+.marjvena {
+    position: absolute !important;
+    right: 0 !important;
+}
+
+.marcxena {
+    position: absolute;
+    left: 0;
+}
+
+.dzirs {
+    position: absolute;
+    bottom: 0;
+}
+
+.zemot {
+    position: absolute;
+    top: 0;
+}
+
+.qvemot-chamoweva {
+    padding: 10% 0 18% 0;
+}
+
+.qvemot-chamoweva-2 {
+    padding: 6% 0 3% 0;
+}
+
+.statia {
+    background: transparent;
+    border: none;
+}
+
+.zesatauri {
+    font-family: 'Noto Sans';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 156.5%;
+    letter-spacing: 0.135em;
+}
+
+.satauri {
+    width: 60%;
+    font-weight: 800;
+    font-size: 67px;
+    line-height: 110.5%;
+}
+
+.teqsti {
+    width: 60%;
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    line-height: 156.5%;
+    color: #555555;
+
+}
+
+.yviteli {
+    color: #FEC90C;
+}
+
+.lurji {
+    color: #5956E8;
+}
+
+.gilaki {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    padding: 17px 39px 18px;
+}
+
+.baneri {
+    width: 100vw;
+}
+
+.specimg {
+    display: none;
+}
+
+.fleqsi {
+    display: flex;
+    justify-content: center !important;
+}
+
+.fleqsi2 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.fleqsi4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fleqsi5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.fleqsi6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fleqsi7 {
+    display: flex;
+    flex-direction: column;
+}
+
+.fleqsi8 {
+    display: flex;
+    flex-direction: row;
+}
+
+.zesatauri2 {
+    font-family: 'Noto Sans';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 156.5%;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.satauri2 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+    width: 80%;
+}
+
+.barati {
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border: 1px solid #424245;
+    border-radius: 30px;
+}
+
+.barati h5 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+}
+
+.barati p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156.5%;
+    color: #D0D0D0
+}
+
+.barati a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #525255;
+    padding: 5% 23%;
+    border: 1px solid #535355;
+    border-radius: 7px;
+}
+
+.barati:hover .ganateba {
+    fill: #5956E8;
+}
+
+.barati:hover a {
+    background-color: #FFDC60;
+    color: black;
+}
+
+.qveda-adgili {
+    padding-bottom: 6%;
+}
+
+.teqsti5 {
+    font-family: 'Noto Sans';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 156.5%;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+}
+
+.teqsti10 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110.5%;
+    text-align: center;
+    color: #292930;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 244%;
+    color: #555555;
+}
+
+.speclist li {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 244%;
+    color: #ffffff;
+}
+
+.shenadzeni {
+    background: #F7F7F7;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+}
+
+.shenadzeni2 {
+    background: #292930;
+    border-radius: 10px;
+}
+
+.zesatauri3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 110.5%;
+    color: #292930;
+}
+
+.zesatauri4 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+}
+
+.shenadzenisp {
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    line-height: 244%;
+    text-align: center;
+    color: #555555;
+}
+
+.shenadzenisp2 {
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    line-height: 244%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.pasi {
+    font-family: 'Nunito';
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 110.5%;
+    text-align: center;
+    color: #292930;
+}
+
+hr {
+    height: 1px;
+    background-color: #D0D0D0;
+    border: none;
+}
+
+.popular {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-family: 'Noto Sans';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 244%;
+    text-align: center;
+    color: #292930;
+    background: #FFDC60;
+    border-radius: 9px;
+    padding: 4px 10px;
+}
+
+.pasi2 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 110.5%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.teqsti15 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+}
+
+.teqsti20 {
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    line-height: 156.5%;
+    color: #D0D0D0;
+}
+
+.input1 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+    background: #5B5B61;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.input2 {
+    background: #FFDC60;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #292930;
+    width: 100%;
+}
+
+
+.qvemot-chamoweva-3 {
+    padding: 8% 0;
+}
+
+.teqsti25 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+}
+
+.teqsti30 {
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    line-height: 156.5%;
+    color: #FFFFFF;
+}
+
+.nomeri {
+    font-family: 'Noto Sans';
+    background: #3C3C45;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 156.5%;
+    color: #FFDC60;
+    padding: 10px 20px;
+}
+
+.potoebi {
+    width: 100%;
+}
+
+.fleqsi10 {
+    display: flex;
+    flex-direction: row;
+}
+
+@media(max-width: 600px) {
+
+    body {
+        background: linear-gradient(111.23deg, #E9F7FF 0%, #FFDBD5 25.17%);
+    }
+
+    .baneri {
+        display: none;
+    }
+
+    .specimg {
+        display: block !important;
+        position: relative !important;
+        width: 200vw;
+        left: -100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    .qvemot-chamoweva {
+        padding: 0;
+        margin-top: -20%;
+    }
+
+    .statia {
+        padding: 10px;
+    }
+
+    .satauri {
+        font-size: 42px;
+        width: 100%;
+    }
+
+    .teqsti {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .gilaki {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+        padding: 15px 30px 15px;
+    }
+
+    .satauri2 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .gilaki2 {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
+    .fleqsi4 {
+        justify-content: flex-start;
+        margin: 10px 0 30px 55px;
+    }
+
+    .fleqsi2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fleqsi3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .barati {
+        margin-top: 20px;
+    }
+
+    .barati img {
+        width: 100%;
+        padding: 10px !important;
+    }
+
+    .barati h5 {
+        font-size: 20px;
+        padding: 10px !important;
+    }
+
+    .barati p {
+        padding: 10px !important;
+        font-size: 14px;
+    }
+
+    .barati a {
+        padding: 10px 6px !important;
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .col-12 {
+        width: auto;
+    }
+
+    .pasi {
+        display: block;
+    }
+
+    .pasi2 {
+        display: block;
+    }
+
+    .centri {
+        display: flex;
+        justify-content: center;
+    }
+
+    .teqsti25 {
+        font-size: 14px;
+    }
+
+    .nomeri {
+        font-size: 14px;
+    }
+
+    .teqsti30 {
+        font-size: 12px;
+    }
+
+}
